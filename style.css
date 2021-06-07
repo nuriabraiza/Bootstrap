@@ -3,6 +3,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Work Sans", sans-serif;
 }
 
 html {
@@ -22,6 +23,22 @@ html {
   background-position: center;
   background-size: 100% 100%;
   background-repeat: no-repeat;
+}
+
+a #logo {
+  animation-name: logo;
+  animation-iteration-count: 1;
+  animation-duration: 3s;
+  animation-timing-function: ease-in;
+}
+
+@keyframes logo {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
 }
 
 main {
@@ -168,7 +185,7 @@ form {
     width: 300px;
   }
   header nav {
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 500;
   }
   #pie ul li {
